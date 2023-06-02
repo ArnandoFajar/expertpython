@@ -35,8 +35,20 @@ print('\n')
 # Check String
 txt = "The best things in life are free!"
 print("free" in txt)
+print('\n')
 
 # check string with if
 txt = "The best things in life are free!"
 if "free" in txt:
     print("Yes, 'free' is present.")
+print('\n')
+
+# Check if Not String
+txt = "The best things in life are free!"
+print("expensive" not in txt)
+print('\n')
+
+# Check if Not String with if
+txt = "The best things in life are free!"
+if "expensive" not in txt:
+    print("No, 'expensive' is NOT present.")
